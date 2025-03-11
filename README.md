@@ -13,4 +13,16 @@ Cold email generator for company using groq, langchain and streamlit. It allows 
 <img width="1413" alt="Screenshot 1946-12-20 at 4 02 12 PM" src="https://github.com/user-attachments/assets/cdb419f6-5ed8-47dd-9898-37f81f501fc3" />
 
 ## Set-up:
-1 . To get started we first need to get an `API_KEY` from here: https://console.groq.com/keys. Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created.
+1 . To get started we first need to get an `API_KEY` from here: [Groq](https://console.groq.com/keys). Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created.
+2 . To get started, first install the dependencies using:
+
+```bash
+ pip install -r requirements.txt
+```
+
+3 . Run the streamlit app:
+
+```bash
+streamlit run app/main.py
+```
+
