@@ -27,3 +27,19 @@ Cold email generator for company using groq, langchain and streamlit. It allows 
 streamlit run app/main.py
 ```
 
+## Tech Stack :
+- Python
+- LangChain
+- Groq (Mixtral-8x7B)
+- ChromaDB (Vector Database for semantic search)
+- Streamlit (Web UI)
+- Pandas (Data handling)
+- WebBaseLoader (Web scraping)
+
+## How it Works:
+- Scrape Job Listings → Extract job postings from LinkedIn.
+- Extract & Structure Data → LLM processes text into JSON format.
+- Store & Retrieve Portfolio Projects → Use ChromaDB for semantic search.
+- Generate Cold Email → AI crafts personalized outreach messages.
+- Streamlit UI → Provides an easy-to-use dashboard.
+
