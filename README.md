@@ -43,3 +43,4 @@ streamlit run app/main.py
 - Generate Cold Email → AI crafts personalized outreach messages.
 - Streamlit UI → Provides an easy-to-use dashboard.
 
+#### Note:- The code is specifically written for macOS 2014 Pro model , it'll run on windows and other os , if issues are raised , please let me know.
